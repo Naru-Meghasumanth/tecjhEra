@@ -1,0 +1,9 @@
+.header {
+  background-color: #f1f5f9;
+  padding: 16px;
+}
+
+.website-logo {
+  width: 150px;
+  cursor: pointer;
+}

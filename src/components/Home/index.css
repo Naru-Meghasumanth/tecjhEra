@@ -1,0 +1,20 @@
+.home-container {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.courses-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
