@@ -6,12 +6,12 @@ const CourseItem = ({course}) => {
   const logoUrl = logo_url
 
   return (
-    <li className="course-item">
-      <Link to={`/courses/${id}`} className="course-item-link">
+    <Link to={`/courses/${id}`} className="course-item-link">
+      <li className="course-item">
         <img src={logoUrl} alt={name} className="course-logo" />
         <p className="course-name">{name}</p>
-      </Link>
-    </li>
+      </li>
+    </Link>
   )
 }
 

@@ -60,7 +60,6 @@ const Home = () => {
   return (
     <div className="home-container">
       <Header />
-      <h1 className="home-heading">Courses</h1>
       {renderContent()}
     </div>
   )
